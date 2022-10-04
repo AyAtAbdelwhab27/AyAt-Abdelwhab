@@ -1,6 +1,7 @@
 <?php
 $operator = '';
-if(isset($_POST['calculate'])){
+
+if($_POST){
 	$num1=$_POST['fnumber'];
 	$num2=$_POST['snumber'];
 	$operator=$_POST['calculate'];
